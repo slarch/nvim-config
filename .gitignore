@@ -1,0 +1,25 @@
+# Swap files
+*.swp
+*.swo
+
+# Backup files
+*~
+*.bak
+
+# Undo files (if you ever enable persistent undo)
+*.un~
+
+# Neovim state or cache directories (if you keep them inside the repo)
+/.cache/
+/undo/
+
+# Compiled Lua bytecode (don't commit)
+/*.luac
+
+# Plugin manager folders (if using lazy.nvim or packer)
+/lazy-lock.json
+/lazy.nvim/
+/packer_compiled.lua
+
+# OS-specific cruft
+.DS_Store
